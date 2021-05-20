@@ -8,8 +8,8 @@ on:
   push:
     branches: 
      - 'main'
-    paths:
-     - '!.github/workflows/deploy-prod.yml'
+#     paths:
+#      - '!.github/workflows/deploy-prod.yml'
   pull_request:
     branches: [ main ]
 
